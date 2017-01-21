@@ -39,7 +39,7 @@ let Restaurants = React.createClass({
         <ol>
 
           {this.state.restaurants.map(function(ele,indx){
-            return <li onClick = {this.getId.bind(this, ele.id)}key = {indx}> {ele.name} </li>
+            return <li onClick = {this.getId.bind(this, ele.id)}key = {indx}> <Link to = '/'>{ele.name} </Link></li>
           }.bind(this))}
 
         </ol>
