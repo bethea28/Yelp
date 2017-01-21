@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "bryanbethea",
+    "password": null,
+    "database": "yelp",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "bryanbethea",
+    "password": null,
+    "database": "yelp",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "bryanbethea",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
